@@ -1,1 +1,1 @@
-# practicejq
+https://developerrahat.github.io/practicejq/
