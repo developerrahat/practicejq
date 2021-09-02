@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css links -->
+    <link rel="stylesheet" href="./useful_plugin/slick-master/slick-theme.css">
+    <link rel="stylesheet" href="./useful_plugin/slick-master/slick.css">
+    <link rel="stylesheet" href="./useful_plugin/counter_timer/css/styles.css">
+    <link rel="stylesheet" href="./useful_plugin/counter_timer/css/reset.css">
+    <!-- lightbox css -->
+    <link rel="stylesheet" href="./useful_plugin/img-lightbox/css/lightgallery-bundle.css">
+    <!-- <link rel="stylesheet" href="./useful_plugin/img-lightbox/css/lg-zoom.css">
+    <link rel="stylesheet" href="./useful_plugin/img-lightbox/css/lg-thumbnail.css"> -->
+    <link rel="shortcut icon" href="./imgs/jquery-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>JS & JQ PRACTICE</title>
+</head>
+<body>
+
+  <!-- header area start -->
+  <header class="scroll-header " >
+    <div class="container">
+     <!-- header nabvar start -->
+     <nav class="navbar navbar-expand-lg navbar-light c-header">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="others.html">
+          <img class="img-fluid" src="./imgs/jquery-logo.png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 c-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Five Plugin*</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Six Plugin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Seven Plugin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+         
+        </ul>
+
+        <div class="button_su">
+          <span class="su_button_circle">
+          </span>
+          <a href="#" class="button_su_inner">
+            <span class="button_text_container">
+              Download CV
+            </span>
+          </a>
+        </div>
+      </div>
+       
+      </div>
+    </div>
+  </div>
+  </nav>
+     <!-- header nabvar end -->
+    </div>
+  </header>
+  <!-- header area end -->
+
+
+  <!-- slick slider start -->
+  <section class="py-5" >
+    <div class="container">
+      <h1 class="text-center text-danger mb-4">Slick Slider</h1>
+      <div class="row">
+        <div class="col-lg all">
+          <div class="sl-img">
+            <img class="" src="./imgs/s-img.jpg" alt="">
+            <div class="overlay"></div>
+          </div>
+          <div class="sl-img">
+            <img class="" src="./imgs/s-img.jpg" alt="">
+          </div>
+          <div class="sl-img">
+            <img class="" src="./imgs/s-img.jpg" alt="">
+          </div>
+          <div class="sl-img">
+            <img class="" src="./imgs/s-img.jpg" alt="">
+          </div>
+          <div class="sl-img">
+            <img class="" src="./imgs/s-img.jpg" alt="">
+          </div>
+          <div class="sl-img">
+            <img class="" src="./imgs/s-img.jpg" alt="">
+          </div>
+          
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- slick slider end -->
+
+
+
+  <!-- counterr timmer -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="counter-timmer mt-5">
+
+            <div class="timer-area">
+              <h1 class="text-light bg-danger">CounterDown Timmer</h1>
+              <ul id="countdown" class="mt-4">
+              <li> <span class="days">00</span>
+                <p class="timeRefDays">days</p>
+              </li>
+              <li> <span class="hours">00</span>
+              <p class="timeRefHours">hours</p>
+              </li>
+              <li> <span class="minutes">00</span>
+              <p class="timeRefMinutes">minutes</p>
+              </li>
+              <li> <span class="seconds">00</span>
+              <p class="timeRefSeconds">seconds</p>
+              </li>
+              </ul>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- lightbox gallery start -->
+  <section class="lightbox">
+    <div class="container">
+      <h1 class="text-center text-danger mb-4">Gallery LightBox</h1>
+      <div class="row">
+       <div class="lightbox-gallery d-flex" id="liGallery">
+                  <a href="./imgs/lightbox-img2.jpg">
+                      <img src="./imgs/lightbox-img2.jpg" alt="">
+                  </a>
+                  <a href="./imgs/1.jpg">
+                      <img src="./imgs/1.jpg" alt="">
+                  </a>
+                  <a href="./imgs/thumb-24.jpg">
+                      <img src="./imgs/thumb-24.jpg" alt="">
+                  </a>
+                  <a href="./imgs/lightbox-img.jpg">
+                      <img src="./imgs/lightbox-img.jpg" alt="">
+                  </a>
+                  <a href="./imgs/thumb-v-v-2.jpg">
+                      <img src="./imgs/thumb-v-v-2.jpg" alt="">
+                  </a>
+                  <a href="./imgs/lightbox-img.jpg">
+                      <img  src="./imgs/lightbox-img.jpg" alt="">
+                  </a>
+                  <a href="./imgs/lightbox-img.jpg">
+                      <img  src="./imgs/lightbox-img.jpg" alt="">
+                  </a>
+                  <a href="./imgs/s-img.jpg">
+                      <img  src="./imgs/s-img.jpg" alt="">
+                  </a>
+       
+          </div>
+      
+      </div>
+    </div>
+  </section>
+  <!-- lightbox gallery end -->
+
+
+ 
+    <script src="./js/jquery.min.js"></script>
+    <script src="./useful_plugin/slick-master/slick.min.js"></script>
+    <script src="./useful_plugin/counter_timer/js/countdown.js"></script>
+    <!-- lightboxgallery -->
+    <script src="./js/waypoints.min.js"></script>
+    <script src="./useful_plugin/img-lightbox/js/lg-thumbnail.umd.js"></script>
+    <script src="./useful_plugin/img-lightbox/js/lg-zoom.umd.js"></script>
+    <script src="./useful_plugin/img-lightbox/js/lightgallery.umd.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./useful_plugin/slick-master/script.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+</html>
